@@ -1,0 +1,18 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/index.css ***!
+  \***********************************************************************************************************/
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    background: #141414;
+    color: #ffffff;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+  gap: 10px; /* Adjust gap between grid items */
+}
+
+/*# sourceMappingURL=App.1156d7023710bacf69406ff55487685a.js.map*/

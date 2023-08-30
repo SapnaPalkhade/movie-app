@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    background: #141414;
+    color: #ffffff;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+  gap: 10px; /* Adjust gap between grid items */
+}
